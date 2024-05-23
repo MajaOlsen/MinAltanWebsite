@@ -1,3 +1,38 @@
+@font-face {
+  font-family: Lexend;
+  src: url(../fonts/Lexend-VariableFont_wght.woff2);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.woff2);
+}
+
+@font-face {
+  font-family: Montserrat italic;
+  src: url(../fonts/Montserrat-Italic-VariableFont_wght.woff2);
+}
+
+h1 {
+  font-family: Lexend;
+}
+
+h2 {
+  font-family: Lexend;
+}
+
+h3 {
+  font-family: Lexend;
+}
+
+h4 {
+  font-family: Lexend;
+}
+
+p {
+  font-family: Montserrat;
+}
+
 footer {
   background-color: rgb(42, 79, 42);
   padding-top: 1em;

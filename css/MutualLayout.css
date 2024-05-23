@@ -60,7 +60,7 @@ a {
 
 /*Satte bare lige width til px i stedet for 100%*/
 .nav-logo {
-  width: 300px;
+  width: 25em;
   height: auto;
 }
 
