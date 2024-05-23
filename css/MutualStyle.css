@@ -3,9 +3,75 @@ footer {
   padding-top: 1em;
 }
 
-.footerContainer {
+.footerGrid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+}
+
+.MinElevator {
+  max-width: 90%;
+  height: auto;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.MinElevator:hover {
+  filter: brightness(80%);
+}
+
+.MinPlatform {
+  max-width: 90%;
+  height: auto;
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
+
+.MinPlatform:hover {
+  filter: brightness(80%);
+}
+
+.MinGruppen {
+  max-width: 90%;
+  height: auto;
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
+
+.MinGruppen:hover {
+  filter: brightness(80%);
+}
+
+.MinFirmaer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  grid-column: 4/5;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.FlexInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.mailLink {
+  color: white;
+}
+
+.MinAltan {
   width: 100%;
-  padding: 70px 30px 20px;
+  height: auto;
 }
 
 .socialIcons {
