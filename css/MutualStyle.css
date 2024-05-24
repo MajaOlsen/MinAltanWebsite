@@ -32,10 +32,12 @@ h2 {
 
 h3 {
   font-family: Lexend;
+  font-size: 20px;
 }
 
 h4 {
   font-family: Lexend;
+  font: 17px;
 }
 
 h5 {
@@ -64,6 +66,12 @@ footer {
 .footerGrid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   display: grid;
+}
+
+.footertext {
+  font-size: 15px;
+  padding-left: 0px;
+  margin-top: 7px;
 }
 
 .MinElevator {
