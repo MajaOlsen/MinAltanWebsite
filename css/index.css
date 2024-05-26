@@ -10,35 +10,32 @@
 
 .indexcontainer {
   position: relative;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   width: 100%;
   overflow: hidden;
 }
 
-/* Styling for the background image */
 .indeximg img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Cover the entire container */
+  object-fit: cover;
   z-index: 1;
 }
 
-/* Styling for the overlay */
 .indexoverlay {
   position: absolute;
-  top: 20%;
-  left: 15%;
-  width: 70%;
-  height: 60%;
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent black */
+  top: 25%;
+  left: 20%;
+  width: 60%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.5);
   z-index: 2;
   border-radius: 5px;
 }
 
-/* Styling for the text and button overlay */
 .overlaytext {
   position: absolute;
   top: 50%;
@@ -52,42 +49,54 @@
 .overlaytext p {
   font-size: 2em;
   margin: 0.5em 0;
+  font-weight: 400;
+}
+
+.overlaytext h4 {
+  font-size: 3em;
+  font-family: Lexend;
+  font-weight: 500;
 }
 
 .overlaybtn a {
   display: inline-block;
-  padding: 0.5em 1em;
-  background: #4f9e16;
+  padding: 0.7em 1.5em;
+  background: #96b931;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 1em;
+  border-radius: 30px;
+  font-size: 1.7em;
   transition: background 0.3s;
   font-family: Lexend;
+  margin-top: 0.5em;
 }
 
 .overlaybtn a:hover {
-  background: #ff8500;
+  background: #0b2d20;
 }
 
-/* Responsive styling */
-@media (max-width: 768px) {
-  .overlaytext p {
-      font-size: 1.5em;
-  }
-
-  .overlaybtn a {
-      font-size: 0.9em;
-      padding: 0.4em 0.8em;
-  }
+.grid_1-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  padding-top: 3em;
 }
 
-@media (max-width: 480px) {
-  .overlaytext p {
-      font-size: 1.2em;
-  }
+.gridimg {
+  flex: 1;
+  max-width: 50%;
+}
 
-  .overlaybtn a {
-      font-size: 0.8em;
-      padding: 0.3em 0.7em;
-  }
+.gridimg img {
+  width: 100%;
+  height: auto;
+}
+
+.gridtext {
+  flex: 1;
+  max-width: 50%;
+  line-height: 2em;
+}
