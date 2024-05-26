@@ -84,19 +84,18 @@
   padding-top: 3em;
 }
 
-.gridimg {
-  flex: 1;
-}
-
-.gridimg img {
-  width: 100%;
-  height: auto;
-}
-
 .gridtext {
   flex: 1;
   width: 50%;
   line-height: 2em;
+}
+
+.lottiefile {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transform: scale(1.5);
 }
 
 @media (max-width: 800px) {
@@ -107,5 +106,8 @@
 
   .gridtext {
     width: 100%;
+  }
+  .lottiefile {
+    transform: scale(2);
   }
 }
