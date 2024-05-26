@@ -10,10 +10,12 @@
   order: -2;
 }
 
-img {
+.img-kontakt {
   width: 100%;
   height: auto;
   border-radius: 5px;
+  padding-left: 30px;
+  margin-top: 15px;
 }
 
 form {
@@ -62,5 +64,13 @@ footer {
   .grid_1-1 {
     grid-template-columns: 1fr;
     display: grid;
+  }
+}
+@media (max-width: 800px) {
+  .img-kontakt {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    align-items: center;
   }
 }
