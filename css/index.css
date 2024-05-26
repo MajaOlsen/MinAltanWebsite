@@ -8,48 +8,86 @@
   flex-direction: row;
 }
 
-.Forside-foto {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.indexcontainer {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  overflow: hidden;
 }
 
-.overlay {
+/* Styling for the background image */
+.indeximg img {
   position: absolute;
-  top: 30%;
-  left: 25%;
-  width: 50%;
-  height: 40%;
-  background: rgba(255, 255, 255, 0.5);
-  color: rgb(27, 68, 11);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  text-align: center;
-  flex-direction: column;
-  border-radius: 5px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container */
   z-index: 1;
 }
 
-.Overlay-knap {
-  background-color: green;
-  border-radius: 50px;
-  padding: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  font-size: 16px;
+/* Styling for the overlay */
+.indexoverlay {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 70%;
+  height: 60%;
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent black */
   z-index: 2;
+  border-radius: 5px;
+}
+
+/* Styling for the text and button overlay */
+.overlaytext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(34, 66, 26);
+  text-align: center;
+  z-index: 3;
+}
+
+.overlaytext p {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.overlaybtn a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #4f9e16;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background 0.3s;
   font-family: Lexend;
-  margin-top: 12px;
-  color: white;
 }
 
-.Overlay-knap:hover {
-  filter: brightness(85%);
+.overlaybtn a:hover {
+  background: #ff8500;
 }
 
-.Overlay-knap a {
-  color: white;
+/* Responsive styling */
+@media (max-width: 768px) {
+  .overlaytext p {
+      font-size: 1.5em;
+  }
+
+  .overlaybtn a {
+      font-size: 0.9em;
+      padding: 0.4em 0.8em;
+  }
 }
+
+@media (max-width: 480px) {
+  .overlaytext p {
+      font-size: 1.2em;
+  }
+
+  .overlaybtn a {
+      font-size: 0.8em;
+      padding: 0.3em 0.7em;
+  }
