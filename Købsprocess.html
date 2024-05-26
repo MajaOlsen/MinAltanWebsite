@@ -6,7 +6,7 @@
     <title>Købprocessen</title>
     <link rel="stylesheet" href="css/MutualStyle.css" />
     <link rel="stylesheet" href="css/MutualLayout.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/Købsprocess.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -41,31 +41,46 @@
       </nav>
     </header>
     <main>
-      <h1>Købsprocessen</h1>
+      <h1>Købsprocessen trin for trin</h1>
       <section>
-        <div class="Process1_container">
-          <div class="Process1_ikon"><img src="" alt="Ikon 1 billede" /></div>
-          <div class="Process1_text"></div>
-        </div>
-        <div class="Process2_container">
-          <div class="Process2_ikon">
-            <img referrerpolicy="" alt="Ikon 2 Billede" />
+        <div class="grid_1-3">
+          <img src="img/ikoner/hænder.svg" alt="Ikon 1 billede" >
+          <div>
+            <h3>Step 1. Besigtelse & Tilbud</h3>
+            <p class="tekst"> Vi gennemgår tilbud og underskriver kontrakt.</p>
           </div>
-          <div class="Process2_text"></div>
         </div>
-        <div class="Process3_container">
-          <div class="Process3_ikon"><img src="" alt="Ikon 3 billede" /></div>
-          <div class="Process3_text"></div>
+        <div class="grid_1-3" id="right">
+          <img src="img/ikoner/papir.svg" alt="Ikon 2 Billede" >
+          <div>
+            <h3>Step 2. Byggetilladelse & Planlægning</h3>
+            <p class="tekst">Der bliver tegnet op og søgt om byggetilladelse.</p>
         </div>
-        <div class="Process4_container">
-          <div class="Process4_ikon"><img src="" alt="Ikon 4 billede" /></div>
-          <div class="Process4_text"></div>
+      </div>
+        <div class="grid_1-3">
+          <img src="img/ikoner/kran.svg" alt="Ikon 2 Billede" >
+          <div>
+          <h3>Step 3. Produktion & Altanmotage</h3>
+          <p class="tekst">Vi måler op, begynder produktion og etablere byggeplads.</p>
+        </div>
+      </div>
+        <div class="grid_1-3" id="right">
+          <img src="img/ikoner/altan.svg" alt="Ikon 2 Billede" >
+          <div>
+          <h3>Step 4. Aflevering af færdig altan</h3>
+          <p class="tekst">Der bliver udført altangennemgang så alt er klar til at i kan nyde jeres nye altaner.</p>
+        </div>
         </div>
       </section>
       <section>
-        <div>SCROLL CONTAINER?</div>
+        <h1>Se hele byggeprocessen</h1>
+        <div class="galleri">
+          <div id="galleri_img1" class="change_image1"></div>
+          <div id="galleri_img2" class="change_image2"></div>
+          <div id="galleri_img3" class="change_image3"></div>
+          <img src="img/ikoner/pil.svg" alt="" id="galleri_knap">
+        </div>
       </section>
-      <section>VIDEO</section>
     </main>
     <footer>
       <div class="footerGrid">
@@ -117,5 +132,6 @@
       </p>
     </div>
     <script src="js/burger.js"></script>
+    <script src="js/købsprocess.js"></script>
   </body>
 </html>

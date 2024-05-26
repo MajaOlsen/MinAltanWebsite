@@ -13,12 +13,17 @@
   src: url(../fonts/Montserrat-Italic-VariableFont_wght.woff2);
 }
 
+body{
+  background-color: #F6F9F4;
+}
+
 /* /* padding-left og margin-top er placeret sådan så det står præcist under logoet, da det skaber mest harmoni og er pænest imo. Tjek kontaktsiden, for at se hvordan det ser ud. - Caro */
 h1 {
   font-family: Lexend;
   font-size: 40px;
   padding-left: 30px;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* /* padding-left og margin-top er placeret sådan så det står præcist under logoet, da det skaber mest harmoni og er pænest imo. Tjek kontaktsiden, for at se hvordan det ser ud. - Caro */
@@ -32,7 +37,7 @@ h2 {
 
 h3 {
   font-family: Lexend;
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 15px;
