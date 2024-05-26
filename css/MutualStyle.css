@@ -62,7 +62,7 @@ p {
 }
 
 footer {
-  background-color: rgb(42, 79, 42);
+  background-color: #0b2d20;
   padding-top: 1em;
 }
 
@@ -199,4 +199,20 @@ footer {
   padding: 2px;
   text-align: center;
   color: white;
+}
+
+@media (max-width: 800px) {
+  .MinFirmaer {
+    display: none;
+  }
+  .footerGrid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .MinAltan {
+    width: 50%;
+    height: auto;
+  }
 }

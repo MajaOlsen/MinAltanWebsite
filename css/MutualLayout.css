@@ -43,6 +43,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 .nav-item {
@@ -52,11 +53,11 @@ a {
 .nav-link {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #2f3845;
+  color: #0b2d20;
 }
 
 .nav-link:hover {
-  color: #040405;
+  color: #96b931;
 }
 
 .nav-logo {
