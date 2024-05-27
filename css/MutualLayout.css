@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+main {
+  margin: 30px;
+}
+
 html {
   font-size: 70%;
   font-family: "Abel", sans-serif;
@@ -71,7 +75,7 @@ a {
     left: 100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #f6f9f4;
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -104,5 +108,9 @@ a {
   .hamburger.active .bar:nth-child(3) {
     translate: 0 -8px;
     rotate: -45deg;
+  }
+
+  main {
+    margin: 20px;
   }
 }

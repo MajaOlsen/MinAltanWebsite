@@ -18,7 +18,7 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="index.html"><img src="img/MinAltan.png" class="nav-logo" /></a>
+        <a href="index.html"><img src="img/Altan.png" class="nav-logo" /></a>
         <ul class="nav-menu">
           <li class="nav-item">
             <a href="index.html" class="nav-link">Forside</a>
@@ -41,39 +41,38 @@
       </nav>
     </header>
     <main>
-      <h1>Galleri</h1>
-      <h2>TEKst bla bla bla</h2>
-      <section>GALLERY 1 HØJRE OG VENSTRE</section>
-      <div class="scroll-container">
-        <img src="" alt="Image 1" />
-        <img src="image2.jpg" alt="Image 2" />
-        <img src="image3.jpg" alt="Image 3" />
-      </div>
-      <h1>Galleri</h1>
-      <h2>Gør din altandrøm til virkelighed</h2>
-      <section>GALLERY 2 HØJRE OG VENSTRE</section>
-      <div class="container">
-        <div class="slider-wrapper">
-          <div class="image-list">
-            <img src="img/billeder_t5/byggeplads4.webp" alt="byggeplads4" />
-            <img src="img/billeder_t5/byggeplads2.webp" alt="byggeplads2" />
-            <img src="img/billeder_t5/byggeplads3.webp" alt="byggeplads3" />
-            <img src="img/billeder_t5/byggeplads5.webp" alt="byggeplads5" />
-            <img src="img/billeder_t5/byggeplads9.webp" alt="byggeplads9" />
-            <img src="img/billeder_t5/byggeplads8.webp" alt="byggeplads8" />
+      <section>
+        <h1>Galleri</h1>
+        <h2>Lad dig blive inspireret</h2>
+        <div class="galleri">
+          <div id="galleri_img1" class="change_img1"></div>
+          <div id="galleri_img2" class="change_img2"></div>
+          <div id="galleri_img3" class="change_img3"></div>
+          <div id="galleri_img4" class="change_img4"></div>
+          <img src="img/ikoner/pil.svg" alt="" id="galleri_knap" />
+        </div>
+      </section>
+      <section>
+        <h2>Gør din altandrøm til virkelighed</h2>
+        <div class="galleri">
+          <div class="slider-wrapper">
+            <div class="image-list">
+              <div id="galleri_img1" class="change_image1"></div>
+              <div id="galleri_img2" class="change_image2"></div>
+              <div id="galleri_img3" class="change_image3"></div>
+              <div id="galleri_img4" class="change_image4"></div>
+              <div id="galleri_img5" class="change_image5"></div>
+              <div id="galleri_img6" class="change_image6"></div>
+              <img src="img/ikoner/pil.svg" alt="" id="galleri_knap" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="slider-scrollbar">
-        <div class="scrollbar-track">
-          <div class="scrollbar-thumb"></div>
-        </div>
-      </div>
+      </section>
     </main>
     <footer>
       <div class="footerGrid">
         <div class="footerLeft">
-          <div><img src="img/MinAltan.png" class="MinAltan" /></div>
+          <div><img src="img/MinAltan.png" class="MinAltan" alt="Min altan logo" /></div>
           <div class="FlexInfo">
             <div>
               <p class="footertext">Nordre Fasanvej 39</p>
@@ -120,5 +119,6 @@
       </p>
     </div>
     <script src="js/burger.js"></script>
+    <script src="js/galleri.js"></script>
   </body>
 </html>
