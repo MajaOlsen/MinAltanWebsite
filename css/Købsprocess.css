@@ -10,7 +10,6 @@
   }
 
 img{
-    display: block;
     max-width: 100%;
 }
 
@@ -21,6 +20,7 @@ img{
     border: 1px solid #B8B8B5;
     border-radius: 2px;
     padding: 10px;
+    margin-top: 30px;
 }
 
 .change_image1{
@@ -41,6 +41,11 @@ img{
   .change_image4{
     background-image: url("../img/billeder_t5/byggeplads.webp");
     background-size: cover;
+  }
+
+  h3{
+    margin-top: 0px;
+    font-size: 20px;
   }
 
 @media (min-width: 800px) {
