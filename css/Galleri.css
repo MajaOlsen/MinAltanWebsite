@@ -1,20 +1,47 @@
-img {
-  width: 500px;
-  height: 300px;
-}
+
 
 .galleri {
-  gap: 18px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
   column-gap: 10px;
   border: 1px solid #b8b8b5;
   border-radius: 2px;
   padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.change_img1 {
+  background-image: url("../img/billeder_t5/minaltan.webp");
+  background-size: cover;
+}
+
+.change_img2 {
+  background-image: url("../img/billeder_t5/altan2.webp");
+  background-size: cover;
+}
+
+.change_img3 {
+  background-image: url("../img/billeder_t5/altan8.webp");
+  background-size: cover;
+}
+
+.change_img4 {
+  background-image: url("../img/billeder_t5/showroom.webp");
+  background-size: cover;
+}
+
+.change_img5 {
+  background-image: url("../img/billeder_t5/minaltan.webp");
+  background-size: cover;
 }
 
 .change_image1 {
-  background-image: url("../img/billeder_t5/byggeplads4.webp");
+  background-image: url("../img/billeder_t5/byggeplads2.webp");
   background-size: cover;
 }
 
@@ -43,30 +70,7 @@ img {
   background-size: cover;
 }
 
-.change_img1 {
-  background-image: url("../img/billeder_t5/minaltan.webp");
-  background-size: cover;
-}
 
-.change_img2 {
-  background-image: url("../img/billeder_t5/altan2.webp");
-  background-size: cover;
-}
-
-.change_img3 {
-  background-image: url("../img/billeder_t5/altan8.webp");
-  background-size: cover;
-}
-
-.change_img4 {
-  background-image: url("../img/billeder_t5/showroom.webp");
-  background-size: cover;
-}
-
-.change_img5 {
-  background-image: url("../img/billeder_t5/minaltan.webp");
-  background-size: cover;
-}
 
 /*.slider-wrapper {
   position: relative;
