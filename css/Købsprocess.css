@@ -1,4 +1,5 @@
 .grid_1-3 {
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: 1fr 6fr;
     column-gap: 50px;
@@ -21,27 +22,51 @@ img{
     border-radius: 2px;
     padding: 10px;
     margin-top: 30px;
+=======
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  column-gap: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: 1.5px solid #b8b8b5;
+  border-radius: 2px;
+  padding: 10px;
 }
 
-.change_image1{
-    background-image: url("../img/billeder_t5/byggeplads6.webp");
-    background-size: cover;
-  }
+img {
+  display: block;
+  max-width: 100%;
+>>>>>>> dbeaa98 (lidt galleri)
+}
 
-  .change_image2{
-    background-image: url("../img/billeder_t5/altan1.webp");
-    background-size: cover;
-  }
+.galleri {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+  column-gap: 10px;
+  border: 1px solid #b8b8b5;
+  border-radius: 2px;
+  padding: 10px;
+}
 
-  .change_image3{
-    background-image: url("../img/billeder_t5/altan7.webp");
-    background-size: cover;
-  }
+.change_image1 {
+  background-image: url("../img/billeder_t5/byggeplads6.webp");
+  background-size: cover;
+}
 
-  .change_image4{
-    background-image: url("../img/billeder_t5/byggeplads.webp");
-    background-size: cover;
-  }
+.change_image2 {
+  background-image: url("../img/billeder_t5/altan1.webp");
+  background-size: cover;
+}
+
+.change_image3 {
+  background-image: url("../img/billeder_t5/altan7.webp");
+  background-size: cover;
+}
+
+.change_image4 {
+  background-image: url("../img/billeder_t5/byggeplads.webp");
+  background-size: cover;
+}
 
   h3{
     margin-top: 0px;
@@ -49,6 +74,7 @@ img{
   }
 
 @media (min-width: 800px) {
+<<<<<<< HEAD
     .grid_1-3{
         width: 70%;
     }
@@ -63,10 +89,23 @@ img{
       column-gap: 20px;
       padding: 20px;
     }
+=======
+  .grid_1-3 {
+    width: 70%;
+  }
+  #right {
+    margin-left: 30%;
+  }
+  .galleri {
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    column-gap: 20px;
+    padding: 20px;
+  }
+>>>>>>> dbeaa98 (lidt galleri)
 }
 
 @media (max-width: 1000px) {
-  .tekst{
+  .tekst {
     display: none;
   }
 }

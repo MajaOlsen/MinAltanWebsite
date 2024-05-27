@@ -41,34 +41,33 @@
       </nav>
     </header>
     <main>
-      <h1>Galleri</h1>
-      <h2>TEKst bla bla bla</h2>
-      <section>GALLERY 1 HØJRE OG VENSTRE</section>
-      <div class="scroll-container">
-        <img src="" alt="Image 1" />
-        <img src="image2.jpg" alt="Image 2" />
-        <img src="image3.jpg" alt="Image 3" />
-      </div>
-      <h1>Galleri</h1>
-      <h2>Gør din altandrøm til virkelighed</h2>
-      <section>GALLERY 2 HØJRE OG VENSTRE</section>
-      <div class="container">
-        <div class="slider-wrapper">
-          <div class="image-list">
-            <img src="img/billeder_t5/byggeplads4.webp" alt="byggeplads4" />
-            <img src="img/billeder_t5/byggeplads2.webp" alt="byggeplads2" />
-            <img src="img/billeder_t5/byggeplads3.webp" alt="byggeplads3" />
-            <img src="img/billeder_t5/byggeplads5.webp" alt="byggeplads5" />
-            <img src="img/billeder_t5/byggeplads9.webp" alt="byggeplads9" />
-            <img src="img/billeder_t5/byggeplads8.webp" alt="byggeplads8" />
+      <section>
+        <h1>Galleri</h1>
+        <h2>Lad dig blive inspireret</h2>
+        <div class="galleri">
+          <div id="galleri_img1" class="change_img1"></div>
+          <div id="galleri_img2" class="change_img2"></div>
+          <div id="galleri_img3" class="change_img3"></div>
+          <div id="galleri_img4" class="change_img4"></div>
+          <img src="img/ikoner/pil.svg" alt="" id="galleri_knap" />
+        </div>
+      </section>
+      <section>
+        <h2>Gør din altandrøm til virkelighed</h2>
+        <div class="galleri">
+          <div class="slider-wrapper">
+            <div class="image-list">
+              <div id="galleri_img1" class="change_image1"></div>
+              <div id="galleri_img2" class="change_image2"></div>
+              <div id="galleri_img3" class="change_image3"></div>
+              <div id="galleri_img4" class="change_image4"></div>
+              <div id="galleri_img5" class="change_image5"></div>
+              <div id="galleri_img6" class="change_image6"></div>
+              <img src="img/ikoner/pil.svg" alt="" id="galleri_knap" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="slider-scrollbar">
-        <div class="scrollbar-track">
-          <div class="scrollbar-thumb"></div>
-        </div>
-      </div>
+      </section>
     </main>
     <footer>
       <div class="footerGrid">
@@ -79,7 +78,9 @@
               <p class="footertext">Nordre Fasanvej 39</p>
               <p class="footertext">2000 Frederiksberg</p>
               <p class="footertext">
-                <a href="mailto:info@minaltan.dk" class="mailLink">info@minaltan.dk</a>
+                <a href="mailto:info@minaltan.dk" class="mailLink"
+                  >info@minaltan.dk</a
+                >
               </p>
             </div>
           </div>
@@ -87,14 +88,26 @@
         <div></div>
         <div class="footerRight">
           <div class="socialIcons">
-            <a href="https://www.facebook.com/minaltan" target="blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/minaltan/" target="blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/4987261/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/minaltan" target="blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/minaltan/" target="blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/company/4987261/" target="blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </div>
           <div class="MinFirmaer">
-            <a href="https://www.minelevator.dk/" target="blank"><img src="img/MinElevator.png" class="MinElevator" /></a>
-            <a href="https://minplatform.dk/" target="blank"><img src="img/MinPlatform.png" class="MinPlatform" /></a>
-            <a href="https://mingruppen.dk/" target="blank"><img src="img/MinGruppen.png" class="MinGruppen" /></a>
+            <a href="https://www.minelevator.dk/" target="blank"
+              ><img src="img/MinElevator.png" class="MinElevator"
+            /></a>
+            <a href="https://minplatform.dk/" target="blank"
+              ><img src="img/MinPlatform.png" class="MinPlatform"
+            /></a>
+            <a href="https://mingruppen.dk/" target="blank"
+              ><img src="img/MinGruppen.png" class="MinGruppen"
+            /></a>
           </div>
         </div>
       </div>
@@ -106,5 +119,6 @@
       </p>
     </div>
     <script src="js/burger.js"></script>
+    <script src="js/galleri.js"></script>
   </body>
 </html>

@@ -3,9 +3,69 @@ img {
   height: 300px;
 }
 
-.container {
-  max-width: 1200px;
-  width: 95%;
+.galleri {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+  border: 1px solid #b8b8b5;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.change_image1 {
+  background-image: url("../img/billeder_t5/byggeplads4.webp");
+  background-size: cover;
+}
+
+.change_image2 {
+  background-image: url("../img/billeder_t5/byggeplads2.webp");
+  background-size: cover;
+}
+
+.change_image3 {
+  background-image: url("../img/billeder_t5/byggeplads3.webp");
+  background-size: cover;
+}
+
+.change_image4 {
+  background-image: url("../img/billeder_t5/byggeplads5.webp");
+  background-size: cover;
+}
+
+.change_image5 {
+  background-image: url("../img/billeder_t5/byggeplads9.webp");
+  background-size: cover;
+}
+
+.change_image6 {
+  background-image: url("../img/billeder_t5/byggeplads8.webp");
+  background-size: cover;
+}
+
+.change_img1 {
+  background-image: url("../img/billeder_t5/minaltan.webp");
+  background-size: cover;
+}
+
+.change_img2 {
+  background-image: url("../img/billeder_t5/altan2.webp");
+  background-size: cover;
+}
+
+.change_img3 {
+  background-image: url("../img/billeder_t5/altan8.webp");
+  background-size: cover;
+}
+
+.change_img4 {
+  background-image: url("../img/billeder_t5/showroom.webp");
+  background-size: cover;
+}
+
+.change_img5 {
+  background-image: url("../img/billeder_t5/minaltan.webp");
+  background-size: cover;
 }
 
 .slider-wrapper {
@@ -13,13 +73,10 @@ img {
 }
 
 .slider-wrapper .image-list {
-  display: grid;
-  gap: 18px;
   font-size: 0;
   margin-bottom: 30px;
   overflow-x: auto;
   scrollbar-width: none;
-  grid-template-columns: repeat(6, 1fr);
 }
 
 .slider-wrapper .image-list ::-webkit-scrollbar {
@@ -32,7 +89,7 @@ img {
   object-fit: cover;
 }
 
-.container .slider-scrollbar {
+/*.galleri .slider-scrollbar {
   height: 24px;
   width: 100%;
   display: flex;
@@ -73,22 +130,18 @@ img {
   right: 0;
   top: -10px;
   bottom: -10px;
-}
+}*/
 
-@media only screen and (max-width: 1023px) {
-  .slider-wrapper .slide-button {
-    display: none !important;
+@media (max-width: 800px) {
+  .grid_1-1 {
+    display: flex;
+    flex-direction: column;
   }
-  .slider-wrapper .image-list {
-    gap: 10px;
-    margin-bottom: 15px;
-    scroll-snap-type: x mandatory;
+
+  .gridtext {
+    width: 100%;
   }
-  .slider-wrapper .image-list .image-item {
-    width: 280px;
-    height: 380px;
-  }
-  .slider-scrollbar .scrollbar-thumb {
-    width: 20%;
+  .lottiefile {
+    transform: scale(2);
   }
 }
