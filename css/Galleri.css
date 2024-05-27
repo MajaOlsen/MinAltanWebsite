@@ -4,8 +4,8 @@ img {
 }
 
 .galleri {
-  display: grid;
   gap: 18px;
+  display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 10px;
   border: 1px solid #b8b8b5;
