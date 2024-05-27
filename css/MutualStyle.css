@@ -20,6 +20,7 @@ body {
 /* /* padding-left og margin-top er placeret sådan så det står præcist under logoet, da det skaber mest harmoni og er pænest imo. Tjek kontaktsiden, for at se hvordan det ser ud. - Caro */
 h1 {
   font-family: Lexend;
+  font-weight: 500;
   font-size: 40px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -28,6 +29,7 @@ h1 {
 /* /* padding-left og margin-top er placeret sådan så det står præcist under logoet, da det skaber mest harmoni og er pænest imo. Tjek kontaktsiden, for at se hvordan det ser ud. - Caro */
 h2 {
   font-family: Lexend;
+  font-weight: 500;
   font-size: 25px;
   padding-right: 30px;
   margin-top: 15px;
@@ -35,6 +37,7 @@ h2 {
 
 h3 {
   font-family: Lexend;
+  font-weight: 500;
   font-size: 25px;
   padding-right: 30px;
   margin-top: 15px;
