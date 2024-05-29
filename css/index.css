@@ -121,9 +121,6 @@
   h4.forside{
     line-height: 0%;
   }
-  p.forside{
-    line-height: 100%;
-  }
 }
 
 @media (max-width: 500px) {
