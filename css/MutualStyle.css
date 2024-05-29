@@ -24,6 +24,7 @@ h1 {
   font-size: 40px;
   margin-top: 15px;
   margin-bottom: 15px;
+  line-height: 150%;
 }
 
 /* /* padding-left og margin-top er placeret sådan så det står præcist under logoet, da det skaber mest harmoni og er pænest imo. Tjek kontaktsiden, for at se hvordan det ser ud. - Caro */
@@ -33,6 +34,7 @@ h2 {
   font-size: 25px;
   padding-right: 30px;
   margin-top: 15px;
+  line-height: 150%;
 }
 
 h3 {
@@ -41,11 +43,13 @@ h3 {
   font-size: 25px;
   padding-right: 30px;
   margin-top: 15px;
+  line-height: 150%;
 }
 
 h4 {
   font-family: Lexend;
   font: 17px;
+  line-height: 150%;
 }
 
 h5 {
@@ -54,6 +58,7 @@ h5 {
   font-weight: bold;
   padding-right: 30px;
   margin-top: 15px;
+  line-height: 150%;
 }
 
 /* /* padding-left og margin-top er placeret sådan så det står præcist under logoet, da det skaber mest harmoni og er pænest imo. Tjek kontaktsiden, for at se hvordan det ser ud. - Caro */
@@ -62,6 +67,11 @@ p {
   font-size: 16px;
   padding-right: 30px;
   margin-top: 15px;
+  line-height: 200%;
+}
+
+#active{
+  color: #96B931;
 }
 
 footer {

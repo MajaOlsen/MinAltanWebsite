@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>Forside</title>
     <link rel="icon" type="image/x-icon" href="img/Favicon.ico" />
     <link rel="stylesheet" href="css/MutualStyle.css" />
@@ -19,10 +20,10 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="index.html"><img src="img/Altan.png" class="nav-logo" /></a>
+        <a href="index.html"><img src="img/Altan.png" alt= "logo" class="nav-logo" /></a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Forside</a>
+            <a href="index.html" class="nav-link" id="active">Forside</a>
           </li>
           <li class="nav-item">
             <a href="Galleri.html" class="nav-link">Galleri</a>
@@ -48,7 +49,7 @@
         </div>
         <div class="indexoverlay"></div>
         <div class="overlaytext">
-          <h4>Min Altan gør altandrømme til virkelighed</h4>
+          <h4 id="forside">MinAltan gør altandrømme til virkelighed</h4>
           <p>Hele Københavns altanleverandør</p>
           <div class="overlaybtn">
             <a href="Kontakt.html">Start din drøm her!</a>
@@ -57,7 +58,10 @@
       </section>
       <section class="grid_1-1">
         <div class="lottiefile">
-          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+          <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+          ></script>
 
           <dotlottie-player
             src="https://lottie.host/a1e47759-81e4-4cfd-8e1a-c58e2e17e5d2/A0WIbrBzYl.json"
@@ -69,16 +73,26 @@
           ></dotlottie-player>
         </div>
         <div class="gridtext">
-          <h3>Har du længe drømt om at få en altan i din boligforening? Eller bor du måske i en forening, hvor altanerne er gamle og trænger til en kærlig hånd?</h3>
+          <h3>
+            Har du længe drømt om at få en altan i din boligforening? Eller bor
+            du måske i en forening, hvor altanerne er gamle og trænger til en
+            kærlig hånd?
+          </h3>
 
           <p>
-            MinAltan er din pålidelige og lokale altanleverandør i Storkøbenhavn. Vi er dedikerede til at hjælpe din boligforening med at realisere jeres altandrømme. Uanset om I ønsker at tilføje
-            nye, moderne altaner eller renovere de eksisterende, står vi klar til at guide jer gennem hele processen – fra de første idéer til det færdige resultat.
+            MinAltan er din pålidelige og lokale altanleverandør i
+            Storkøbenhavn. Vi er dedikerede til at hjælpe din boligforening med
+            at realisere jeres altandrømme. Uanset om I ønsker at tilføje nye,
+            moderne altaner eller renovere de eksisterende, står vi klar til at
+            guide jer gennem hele processen – fra de første idéer til det
+            færdige resultat.
           </p>
 
           <p>
-            Besøg vores inspirerende showroom på Frederiksberg og oplev vores brede udvalg af altaner. Eller kontakt os for at booke en gratis og uforpligtende besigtigelse af jeres ejendom. Vi ser
-            frem til at hjælpe jer med at skabe nye, skønne uderum!
+            Besøg vores inspirerende showroom på Frederiksberg og oplev vores
+            brede udvalg af altaner. Eller kontakt os for at booke en gratis og
+            uforpligtende besigtigelse af jeres ejendom. Vi ser frem til at
+            hjælpe jer med at skabe nye, skønne uderum!
           </p>
         </div>
       </section>
@@ -87,7 +101,7 @@
           <iframe
             src="https://www.youtube.com/embed/eKr3zq7Vu4k?si=3Tg8b2S6DK23T-Xh"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
@@ -99,13 +113,17 @@
     <footer>
       <div class="footerGrid">
         <div class="footerLeft">
-          <div><img src="img/MinAltan.png" class="MinAltan" alt="Min altan logo" /></div>
+          <div>
+            <img src="img/MinAltan.png" class="MinAltan" alt="Minaltan logo" />
+          </div>
           <div class="FlexInfo">
             <div>
               <p class="footertext">Nordre Fasanvej 39</p>
               <p class="footertext">2000 Frederiksberg</p>
               <p class="footertext">
-                <a href="mailto:info@minaltan.dk" class="mailLink">info@minaltan.dk</a>
+                <a href="mailto:info@minaltan.dk" class="mailLink"
+                  >info@minaltan.dk</a
+                >
               </p>
             </div>
           </div>
@@ -113,14 +131,35 @@
         <div></div>
         <div class="footerRight">
           <div class="socialIcons">
-            <a href="https://www.facebook.com/minaltan" target="blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/minaltan/" target="blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/4987261/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/minaltan" target="blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/minaltan/" target="blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/company/4987261/" target="blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </div>
           <div class="MinFirmaer">
-            <a href="https://www.minelevator.dk/" target="blank"><img src="img/MinElevator.png" class="MinElevator" alt="minelevator link knap" /></a>
-            <a href="https://minplatform.dk/" target="blank"><img src="img/MinPlatform.png" class="MinPlatform" alt="min platform link knap" /></a>
-            <a href="https://mingruppen.dk/" target="blank"><img src="img/MinGruppen.png" class="MinGruppen" alt="min gruppen link knap" /></a>
+            <a href="https://www.minelevator.dk/" target="blank"
+              ><img
+                src="img/MinElevator.png"
+                class="MinElevator"
+                alt="minelevator link knap"
+            /></a>
+            <a href="https://minplatform.dk/" target="blank"
+              ><img
+                src="img/MinPlatform.png"
+                class="MinPlatform"
+                alt="min platform link knap"
+            /></a>
+            <a href="https://mingruppen.dk/" target="blank"
+              ><img
+                src="img/MinGruppen.png"
+                class="MinGruppen"
+                alt="min gruppen link knap"
+            /></a>
           </div>
         </div>
       </div>
