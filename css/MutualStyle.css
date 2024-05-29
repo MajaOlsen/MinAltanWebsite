@@ -70,6 +70,10 @@ p {
   line-height: 200%;
 }
 
+#active{
+  color: #96B931;
+}
+
 footer {
   background-color: #0b2d20;
   padding-top: 1em;
