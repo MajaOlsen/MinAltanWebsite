@@ -106,6 +106,10 @@
   aspect-ratio: 8/4.5;
 }
 
+iframe {
+  border: none;
+}
+
 @media (max-width: 800px) {
   .grid_1-1 {
     display: flex;
@@ -118,7 +122,7 @@
   .lottiefile {
     transform: scale(2);
   }
-  h4.forside{
+  h4.forside {
     line-height: 0%;
   }
 }
